@@ -204,7 +204,7 @@ $expenses = '
 
 $expenses = explode(PHP_EOL, $expenses);
 
-// Conver the strings to integers
+// Convert the strings to integers
 foreach($expenses as $key => $expense)
 {
     $expenses[$key] = (int) $expense;
